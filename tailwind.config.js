@@ -30,7 +30,8 @@ export default {
       "bg-primary": "#201E43",
       "bg-secondary": "#134B70",
       "bg-text": "#508C9B",
-      "bg-white": "#EEEEEE"
+      "bg-white": "#EEEEEE",
+      transparent: 'transparent',
     }
   },
   plugins: [
