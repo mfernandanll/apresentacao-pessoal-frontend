@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import plugin from 'tailwindcss/plugin'
+
 export default {
   content: [
     "./index.html",
@@ -25,30 +27,34 @@ export default {
         '1s': '1s',
         '2s': '2s',
       },
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
     },
     colors: {
       "bg-primary": "#201E43",
       "bg-secondary": "#134B70",
       "bg-text": "#508C9B",
+      "bg-card": "#b0d1e7",
+      "bg-card-hover": "#82c0e9",
       "bg-white": "#EEEEEE",
       transparent: 'transparent',
     }
   },
   plugins: [
-    function ({ addUtilities }) {
-      const newUtilities = {
-        '.delay-1s': {
-          'animation-delay': '1s',
-        },
-        '.delay-2s': {
-          'animation-delay': '2s',
-        },
-        '.duration-40': {
-          'animation-duration': '40s'
-        }
-      };
-      addUtilities(newUtilities);
-    },
+    plugin(
+      function ({ addUtilities }) {
+        const newUtilities = {
+          '.delay-1s': {
+            'animation-delay': '1s',
+          },
+          '.duration-40': {
+            'animation-duration': '40s'
+          }
+        };  
+        addUtilities(newUtilities);
+      }
+    ),
   ],
 }
 

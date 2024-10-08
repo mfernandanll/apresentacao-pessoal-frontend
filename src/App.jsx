@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { About } from "./pages/About";
 import { Hero } from "./pages/Hero";
+import { Skills } from "./pages/Skills";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main className="container mx-auto p-6 text-bg-primary">
         <Hero/>
         <About/>
+        <Skills />
       </main>
     </div>
   );
