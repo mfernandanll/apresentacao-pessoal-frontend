@@ -13,8 +13,8 @@ function App() {
   const isPageScrolled = usePageScroll(400); 
 
   return (
-    <div className="min-h-screen bg-bg-white">
-      <Header />
+    <div className="min-h-screen bg-custom-gradient">
+      <Header isPageScrolled={isPageScrolled}/>
       <main className="container mx-auto p-6 text-bg-primary">
         <SocialLinks />
         <ScrollTopButton isPageScrolled={isPageScrolled}/>

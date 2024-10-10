@@ -30,6 +30,9 @@ export default {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to bottom, #c7f0f5, #E0F7FA);',
+      },
     },
     colors: {
       "bg-primary": "#201E43",
@@ -38,6 +41,8 @@ export default {
       "bg-card": "#e7f5ff",
       "bg-card-hover": "#b7d7ed",
       "bg-white": "#EEEEEE",
+      "bg-gradient-primary": "#c7f0f5",
+      "bg-gradient-secondary": "#E0F7FA",
       transparent: 'transparent',
     }
   },
