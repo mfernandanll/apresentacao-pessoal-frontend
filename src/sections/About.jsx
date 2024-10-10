@@ -2,7 +2,12 @@ import { TelegramLogo } from "phosphor-react";
 
 export function About() {
   return (
-    <section className="flex justify-between items-center my-10">
+    <section
+      className="
+        flex justify-between items-center
+        my-10 w-full 
+        max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]"
+    >
       <div className="grid grid-cols-2 container gap-4">
         <div className="flex justify-center relative">
           <img

@@ -2,7 +2,13 @@ import Typewriter from "typewriter-effect";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[calc(100vh-64px)] flex justify-between items-center">
+    <section 
+      className="
+        relative 
+        flex justify-between items-center
+        mx-auto w-full 
+        min-h-[calc(100vh-64px)] 
+        max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]">
       <div className="flex-1">
         <p className="mt-4 text-bg-primary font-bold mb-4">Olá, meu nome é</p>
         <h2 className="text-5xl font-light text-gray-800 mb-4">
