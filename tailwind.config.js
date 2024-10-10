@@ -35,8 +35,8 @@ export default {
       "bg-primary": "#201E43",
       "bg-secondary": "#134B70",
       "bg-text": "#508C9B",
-      "bg-card": "#b0d1e7",
-      "bg-card-hover": "#82c0e9",
+      "bg-card": "#e7f5ff",
+      "bg-card-hover": "#b7d7ed",
       "bg-white": "#EEEEEE",
       transparent: 'transparent',
     }

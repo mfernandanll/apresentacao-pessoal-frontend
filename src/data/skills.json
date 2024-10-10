@@ -1,80 +1,58 @@
 [
   {
     "id": 1,
-    "title": "HTML",
-    "img": "/skills/html.svg",
-    "color": "#fc4503"
+    "title": "HTML"
   },
   {
     "id": 2,
-    "title": "CSS",
-    "img": "/skills/css.svg",
-    "color": "#0328fc"
+    "title": "CSS"
   },
   {
     "id": 3,
-    "title": "JavaScript",
-    "img": "/skills/javascript.svg",
-    "color": "#fefe01"
+    "title": "JavaScript"
   },
   {
     "id": 4,
-    "title": "TypeScript",
-    "img": "/skills/typescript.svg",
-    "color": "#007ACC"
+    "title": "TypeScript"
   },
   {
     "id": 5,
-    "title": "React",
-    "img": "/skills/react.svg",
-    "color": "#61DAFB"
+    "title": "React"
   },
   {
     "id": 6,
-    "title": "Angular",
-    "img": "/skills/angular.svg",
-    "color": "#E23237"
+    "title": "Angular"
   },
   {
     "id": 7,
-    "title": "Noje JS",
-    "img": "/skills/angular.svg",
-    "color": "#E23237"
+    "title": "Noje JS"
   },
   {
     "id": 8,
-    "title": "Styled Components",
-    "img": "/skills/styled-components.svg",
-    "color": "#9F70B8"
+    "title": "Styled Components"
   },
   {
     "id": 9,
-    "title": "Bootstrap",
-    "img": "/skills/styled-components.svg",
-    "color": "#9F70B8"
+    "title": "Bootstrap"
   },
   {
     "id": 10,
-    "title": "Angular Material",
-    "img": "/skills/material-ui.svg",
-    "color": "#007fff"
+    "title": "Tailwind"
   },
   {
     "id": 11,
-    "title": "Git",
-    "img": "/skills/git.svg",
-    "color": "#de4736"
+    "title": "Angular Material"
   },
   {
     "id": 12,
-    "title": "Github",
-    "img": "/skills/git.svg",
-    "color": "#de4736"
+    "title": "Git"
   },
   {
     "id": 13,
-    "title": "Jest",
-    "img": "/skills/git.svg",
-    "color": "#de4736"
+    "title": "Github"
+  },
+  {
+    "id": 14,
+    "title": "Jest"
   }
 ]
