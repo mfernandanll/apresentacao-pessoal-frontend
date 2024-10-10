@@ -1,16 +1,21 @@
 import { Header } from "./components/Header";
-import { About } from "./pages/About";
-import { Contact } from "./pages/Contact";
-import { Hero } from "./pages/Hero";
-import { Projects } from "./pages/Projects";
-import { Skills } from "./pages/Skills";
+import { ScrollTopButton } from "./components/ScrollTopButton";
+import { About } from "./sections/About";
+import { Contact } from "./sections/Contact";
+import { Hero } from "./sections/Hero";
+import { Projects } from "./sections/Projects";
+import { Skills } from "./sections/Skills";
+import { usePageScroll } from "./utils/usePageScroll";
 
 
 function App() {
+  const isPageScrolled = usePageScroll(400); 
+
   return (
     <div className="min-h-screen bg-bg-white">
       <Header />
       <main className="container mx-auto p-6 text-bg-primary">
+        <ScrollTopButton isPageScrolled={isPageScrolled}/>
         <Hero/>
         <About/>
         <Skills />
