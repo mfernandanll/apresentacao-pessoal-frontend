@@ -1,12 +1,19 @@
 import { TelegramLogo } from "phosphor-react";
+import { useIntersectionObserver } from "../utils/useIntersectionObserver";
 
 export function About() {
+  const { isVisible, elementRef } = useIntersectionObserver(0.3);
+
   return (
     <section
-      className="
-        flex justify-between items-center
+      ref={elementRef}
+      className={
+        `flex justify-between items-center
         my-10 w-full mx-auto 
-        max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]"
+        max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]
+        transition-all duration-1000
+        ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`
+      }
     >
       <div
         className="

@@ -1,9 +1,17 @@
+import { useIntersectionObserver } from "../utils/useIntersectionObserver";
+
 export function Contact() {
+  const { isVisible, elementRef } = useIntersectionObserver(0.3);
+
   return (
     <section
-      className="
-        my-40 
-        px-0 h-auto"
+      ref={elementRef}
+      className={
+        `my-40 
+        px-0 h-auto
+        transition-all duration-1000
+        ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`
+      }
     >
       <div
         className="

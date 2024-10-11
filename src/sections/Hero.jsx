@@ -1,9 +1,14 @@
 import Typewriter from "typewriter-effect";
+import { useIntersectionObserver } from "../utils/useIntersectionObserver";
 
 export function Hero() {
+  const { isVisible, elementRef } = useIntersectionObserver(0.3);
+
   return (
     <section
-      className="
+      ref={elementRef}
+      className={
+        `
         relative 
         flex justify-between items-center
         mx-auto w-full 
@@ -11,7 +16,10 @@ export function Hero() {
         max-xl:px-8
         max-lg:flex-col max-lg:gap-8 max-lg:justify-center max-lg:h-full 
         max-md:max-w-[960px] max-md:px-0
-        max-sm:max-w-[720px]"
+        max-sm:max-w-[720px]
+        transition-all duration-1000
+        ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`
+      }
     >
       <div className="basis-[65%] flex-grow max-lg:w-full max-lg:mt-[20vh]">
         <p className="mt-4 font-bold mb-4 text-bg-secondary">Olá, meu nome é</p>
