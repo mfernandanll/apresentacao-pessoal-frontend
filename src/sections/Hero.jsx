@@ -51,14 +51,14 @@ export function Hero() {
       </div>
 
       <img
-        className="absolute animate-spin duration-40 opacity-30 right-10 top-20 max-md:hidden"
+        className="absolute animate-spin duration-40 opacity-30 right-16 top-32 max-md:hidden"
         src="/src/assets/Ellipse.svg"
         alt="Ellipse rotating"
       />
 
       <svg
-        width="314"
-        height="313"
+        width="280"
+        height="280"
         viewBox="0 0 244 243"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
