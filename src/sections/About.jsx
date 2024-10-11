@@ -5,7 +5,7 @@ export function About() {
     <section
       className="
         flex justify-between items-center
-        my-10 w-full 
+        my-10 w-full mx-auto 
         max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]"
     >
       <div

@@ -10,7 +10,7 @@ export function Skills() {
       ref={elementRef}
       className="
         my-40 mx-auto tracking-wide
-        pr-8 pb-36 
+        pb-36 
         w-full max-w-[1320px] 
         max-md:max-w-[960px] max-md:px-2
         max-sm:max-w-[720px] 
