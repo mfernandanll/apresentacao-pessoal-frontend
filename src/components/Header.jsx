@@ -1,4 +1,6 @@
 export function Header(isPageScrolled = false) {
+  const navLinkStyle = "hover:text-bg-text transition-all"
+
   return (
     <header
       className={`
@@ -13,18 +15,18 @@ export function Header(isPageScrolled = false) {
           mx-auto w-full 
           max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]"
       >
-        <h1 className="text-2xl font-bold">Fernanda Loureiro</h1>
+        <h1 className="text-base font-bold">mfernandanll</h1>
         <nav className="flex gap-2">
-          <a className="hover:text-bg-text transition-all" href="">
+          <a className={navLinkStyle} href="">
             Home
           </a>
-          <a className="hover:text-bg-text transition-all" href="">
+          <a className={navLinkStyle} href="">
             Sobre
           </a>
-          <a className="hover:text-bg-text transition-all" href="">
+          <a className={navLinkStyle} href="">
             Projetos
           </a>
-          <a className="hover:text-bg-text transition-all" href="">
+          <a className={navLinkStyle} href="">
             Contato
           </a>
         </nav>

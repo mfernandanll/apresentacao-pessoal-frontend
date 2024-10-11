@@ -8,18 +8,24 @@ export function About() {
         my-10 w-full 
         max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]"
     >
-      <div className="grid grid-cols-2 container gap-4">
-        <div className="flex justify-center relative">
+      <div
+        className="
+        grid grid-cols-2 
+        container 
+        gap-4 
+        max-xl:px-8 
+        max-lg:grid-cols-1 max-lg:gap-16
+        max-md:px-2"
+      >
+        <div className="flex justify-start items-start relative max-lg:justify-center max-md:items-center">
           <img
             className="
-            border-t-[9px] border-l-[9px] 
+            border-t-[9px] border-l-[9px] border-bg-text
             p-6 
             drop-shadow-[0_1.6rem_1.6rem_rgba(51,51,51,0.25)] 
-            lg:w-[90%] 
+            max-lg:w-[90%] 
             md:w-[80%] md:max-w-[80%] md:p-8 
-            sm:w-[100%] sm:max-w-[100%] sm:p-4
-            border-bg-text
-          "
+            sm:w-[100%] sm:max-w-[100%] sm:p-4"
             src="/src/assets/profile.jpg"
             alt="Profile photo"
           />
@@ -57,7 +63,8 @@ export function About() {
           <div className="flex items-center gap-8 max-sm:flex-col">
             <a
               href="mailto:m.fernanda.nll@gmail.com"
-              className=" no-underline 
+              className=" 
+                no-underline 
                 self-center 
                 mt-6 p-3 
                 bg-bg-secondary text-bg-white 
@@ -78,8 +85,7 @@ export function About() {
                 transition-all duration-300 
                 border-b-2 border-transparent 
                 no-underline self-center
-                hover:border-b-bg-secondary
-              "
+                hover:border-b-bg-secondary"
             >
               Baixar currículo
             </a>

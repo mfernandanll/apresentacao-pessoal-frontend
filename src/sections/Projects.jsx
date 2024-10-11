@@ -11,7 +11,10 @@ export function Projects() {
       className="
         my-40 mx-auto tracking-wide
         pr-8 pb-36 
-        w-full max-w-[1320px] max-md:max-w-[960px] max-sm:max-w-[720px]"
+        w-full max-w-[1320px] 
+        max-md:max-w-[960px] max-md:px-2
+        max-sm:max-w-[720px] 
+        max-xl:px-8"
     >
       <p className="font-semibold tracking-wide my-4 text-bg-secondary">
         Apps que desenvolvi
@@ -19,21 +22,23 @@ export function Projects() {
       <h2 className="mb-4 text-4xl font-extrabold tracking-wide">Projetos</h2>
 
       <div
-        className={
-          `grid grid-cols-[repeat(auto-fill,minmax(301px,1fr))] 
+        className={`grid grid-cols-[repeat(auto-fill,minmax(301px,1fr))] 
           gap-8 mt-8
           max-[425px]:grid-cols-[repeat(auto-fill,minmax(250px,1fr))]
           transition-all duration-1000
-          ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`
-        }
+          ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
       >
         {projectsData &&
           projectsData.map((project, index) => (
-            <div key={index} 
+            <div
+              key={index}
               className="
                 bg-bg-card rounded-lg 
                 hover:bg-bg-card-hover 
-                transition-colors duration-300 ease-in-out">
+                transition-colors duration-300 ease-in-out"
+            >
               <a href={project.demo} target="_blank">
                 <img
                   className="
@@ -49,7 +54,7 @@ export function Projects() {
                 />
               </a>
 
-              <div className="flex flex-col flex-1 p-5 justify-between ">
+              <div className="flex flex-col flex-1 p-5 justify-between">
                 <header className="flex justify-between items-center">
                   <h3 className="text-2xl tracking-wide">{project.title}</h3>
 
@@ -84,7 +89,7 @@ export function Projects() {
                   {project.description}
                 </p>
 
-                <div className="mt-auto"> 
+                <div className="mt-auto">
                   <p className="text-sm tracking-wide">
                     {project.tags.join(" · ")}
                   </p>
