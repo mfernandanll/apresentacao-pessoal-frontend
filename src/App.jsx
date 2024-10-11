@@ -8,6 +8,7 @@ import { Hero } from "./sections/Hero";
 import { Projects } from "./sections/Projects";
 import { Skills } from "./sections/Skills";
 import { usePageScroll } from "./utils/usePageScroll";
+import { Footer } from "./sections/Footer";
 
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
           <Contact />
         </Element>
       </main>
+
+      <Footer />
     </div>
   );
 }
