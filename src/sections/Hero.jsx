@@ -60,7 +60,7 @@ export function Hero() {
 
       <img
         className="absolute animate-spin duration-40 opacity-30 right-16 top-32 max-md:hidden"
-        src="/src/assets/Ellipse.svg"
+        src="/Ellipse.svg"
         aria-hidden="true"
         alt="Um gráfico de elipse animado e giratório"
       />

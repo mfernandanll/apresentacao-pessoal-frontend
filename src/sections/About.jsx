@@ -33,7 +33,7 @@ export function About() {
             max-lg:w-[90%] 
             md:w-[80%] md:max-w-[80%] md:p-8 
             sm:w-[100%] sm:max-w-[100%] sm:p-4"
-            src="/src/assets/profile.jpg"
+            src="/profile.jpg"
             alt="Foto de Fernanda Loureiro"
           />
         </div>
