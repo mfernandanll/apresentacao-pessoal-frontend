@@ -32,14 +32,14 @@ export function Projects() {
       >
         {projectsData &&
           projectsData.map((project, index) => (
-            <div
+            <article
               key={index}
               className="
                 bg-bg-card rounded-lg 
                 hover:bg-bg-card-hover 
                 transition-colors duration-300 ease-in-out"
             >
-              <a href={project.demo} target="_blank">
+              <a href={project.demo} target="_blank" rel="noopener noreferrer">
                 <img
                   className="
                   w-full 
@@ -66,6 +66,7 @@ export function Projects() {
                       transition-colors duration-300 ease-in-out 
                       hover:text-bg-primary"
                       href={project.github}
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <GithubLogo size={"1.5rem"} />
@@ -78,6 +79,7 @@ export function Projects() {
                       transition-colors duration-300 ease-in-out 
                       hover:text-bg-primary"
                       href={project.demo}
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <Rocket size={"1.5rem"} />
@@ -95,7 +97,7 @@ export function Projects() {
                   </p>
                 </div>
               </div>
-            </div>
+            </article>
           ))}
       </div>
     </section>

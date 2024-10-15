@@ -36,7 +36,7 @@ export function Header(isPageScrolled = false) {
           className="flex gap-1 cursor-pointer"
         >
           <span>&lt;</span>
-          <h1 className="text-base font-bold">mfernandanll</h1>
+          <span  className="text-base font-bold">mfernandanll</span>
           <span>&#47;&gt;</span>
         </Link>
 

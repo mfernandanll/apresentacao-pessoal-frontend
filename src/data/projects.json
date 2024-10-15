@@ -5,7 +5,7 @@
     "github": "https://github.com/mfernandanll/rocketseat-stage09-frontend-rocketMovies",
     "demo": "https://rocket-movies-frontend.netlify.app/",
     "description": "Uma aplicação onde você pode armazenar informações sobre filmes e atribuir classificações a eles",
-    "img": "/public/projects/rocket_movies.png",
+    "img": "/projects/rocket_movies.png",
     "tags": [
       "Typescript",
       "ViteJS",
@@ -24,7 +24,7 @@
     "github": "https://github.com/mfernandanll/coffee-delivery",
     "demo": "https://coffee-delivery-frontend.netlify.app/",
     "description": "Loja online de cafés com delivery, onde o usuário pode adicionar produtos ao carrinho e finalizar a compra preenchendo o endereço de entrega.",
-    "img": "/public/projects/coffee_delivery.png",
+    "img": "/projects/coffee_delivery.png",
     "tags": [
       "Typescript",
       "ReactJS",
@@ -42,7 +42,7 @@
     "github": "https://github.com/mfernandanll/github-blog",
     "demo": "https://github-issues-blog.netlify.app/",
     "description": "Blog pessoal que consome a API do GitHub para exibir posts carregados diretamente da aba de Issues do repositório do projeto. Novos issues são exibidos automaticamente como posts no blog.",
-    "img": "/public/projects/github_blog.png",
+    "img": "/projects/github_blog.png",
     "tags": [
       "Typescript",
       "ReactJS",
@@ -61,7 +61,7 @@
     "github": "https://github.com/mfernandanll/food-explorer-frontend",
     "demo": "https://food-explorer-app-frontend.netlify.app/",
     "description": "Cardápio digital para um restaurante fictício.",
-    "img": "/public/projects/food_explorer.png",
+    "img": "/projects/food_explorer.png",
     "tags": [
       "Typescript",
       "ViteJS",

@@ -33,6 +33,8 @@ export function Contact() {
             border border-bg-secondary 
             text-center text-base tracking-wider 
             transition ease-linear duration-300 hover:bg-bg-text"
+          rel="noopener noreferrer"
+          aria-label="Enviar email para Fernanda Loureiro"
           href="mailto:m.fernanda.nll@gmail.com"
         >
           Diga olá

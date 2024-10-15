@@ -23,9 +23,9 @@ export function Hero() {
     >
       <div className="basis-[65%] flex-grow max-lg:w-full max-lg:mt-[20vh]">
         <p className="mt-4 font-bold mb-4 text-bg-secondary">Olá, meu nome é</p>
-        <h2 className="text-5xl font-bold text-gray-800 max-md:text-3xl">
+        <h1 className="text-5xl font-bold text-gray-800 max-md:text-3xl">
           Fernanda Loureiro
-        </h2>
+        </h1>
         <div className="flex text-5xl mb-4 max-md:text-2xl">
           <h2>Desenvolvedora&nbsp;</h2>
           <Typewriter
@@ -39,8 +39,8 @@ export function Hero() {
         </div>
 
         <p className="mb-4 max-w-lg text-base">
-          Eu sou uma desenvolvedora front-end (e ocasionalmente back-end)
-          especializada na construção e design de experiências digitais.
+          Eu sou uma desenvolvedora front-end especializada em entregar
+          interfaces front-end eficientes e agradáveis aos usuários
         </p>
       </div>
 
@@ -61,7 +61,8 @@ export function Hero() {
       <img
         className="absolute animate-spin duration-40 opacity-30 right-16 top-32 max-md:hidden"
         src="/src/assets/Ellipse.svg"
-        alt="Ellipse rotating"
+        aria-hidden="true"
+        alt="Um gráfico de elipse animado e giratório"
       />
 
       <svg
@@ -70,6 +71,8 @@ export function Hero() {
         viewBox="0 0 244 243"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        alt="Um retângulo animado flutuando"
+        aria-hidden="true"
         className="absolute top-[25%] right-[20%] opacity-30 animate-float max-md:hidden"
       >
         <rect

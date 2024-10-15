@@ -34,7 +34,7 @@ export function About() {
             md:w-[80%] md:max-w-[80%] md:p-8 
             sm:w-[100%] sm:max-w-[100%] sm:p-4"
             src="/src/assets/profile.jpg"
-            alt="Profile photo"
+            alt="Foto de Fernanda Loureiro"
           />
         </div>
 
@@ -70,6 +70,8 @@ export function About() {
           <div className="flex items-center gap-8 max-sm:flex-col">
             <a
               href="mailto:m.fernanda.nll@gmail.com"
+              rel="noopener noreferrer"
+              aria-label="Enviar email para Fernanda Loureiro"
               className=" 
                 no-underline 
                 self-center 
@@ -86,6 +88,7 @@ export function About() {
 
             <a
               href="Resume.pdf"
+              aria-label="Download de curriculum vitae de Fernanda Loureiro"
               download="CV - MARIA FERNANDA NATIVIDADE LIMA LOUREIRO.pdf"
               className="
                 mt-6 

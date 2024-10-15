@@ -19,6 +19,7 @@ export function SocialLinks() {
         href="https://github.com/mfernandanll"
         target="_blank"
         aria-label="Link para o Github"
+        rel="noopener noreferrer"
       >
         <GithubLogo size={iconSize} />
       </a>
@@ -28,6 +29,7 @@ export function SocialLinks() {
         href="https://www.linkedin.com/in/maria-fernanda-loureiro/"
         target="_blank"
         aria-label="Link para o LinkedIn"
+        rel="noopener noreferrer"
       >
         <LinkedinLogo size={iconSize} />
       </a>
@@ -36,7 +38,8 @@ export function SocialLinks() {
         className={link}
         href="mailto:m.fernanda.nll@gmail.com"
         target="_blank"
-        aria-label="Link para o Email"
+        aria-label="Enviar email para Fernanda Loureiro"
+        rel="noopener noreferrer"
       >
         <Envelope size={iconSize} />
       </a>

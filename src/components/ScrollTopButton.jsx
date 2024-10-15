@@ -26,6 +26,7 @@ export function ScrollTopButton({ isPageScrolled }) {
             cursor-pointer 
             transition-opacity ease-in 
             hover:opacity-80 max-[425px]:hidden"
+          aria-label="Voltar ao topo da página"
           onClick={handleScroll}>
           <ArrowUp weight='bold' />
         </button>
